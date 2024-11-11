@@ -1,0 +1,77 @@
+* {
+    font: roboto, sans-serif;
+}
+
+.header{
+    display: flex;
+    
+    background-color: #1F2937;
+    font: roboto, sans-serif;
+    color: #F9FAF8;
+}
+
+.top-header{
+    display: flex;
+
+}
+
+.top-header-image{
+    background-color: #1F2937;
+    font: roboto, sans-serif;
+    color: #F9FAF8;
+}
+
+.top-header-list{
+
+}
+
+.midle-header-box{
+
+}
+
+.midle-header-text{
+  
+
+}
+
+.midle-header-text-h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.midle-header-text-p{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.midle-header-button{
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font: roboto, sans-serif;
+    border:#3882f6;
+}
+
+.midle-header-image{
+
+}
+
+.top-main{
+
+}
+
+
+.midle-main{
+    background-color: #e5e7eb;
+}
+
+.bottom-main{
+
+
+}
+
+.unique-footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font: roboto, sans-serif;
+}
