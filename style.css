@@ -1,77 +1,200 @@
 * {
-    font: roboto, sans-serif;
-}
-
-.header{
-    display: flex;
+    font-family: Roboto, arial, Roboto,sans-serif;
     
-    background-color: #1F2937;
-    font: roboto, sans-serif;
-    color: #F9FAF8;
+      
 }
 
-.top-header{
+body {
     display: flex;
-
+    flex-direction: column;
+    margin: 0;
 }
 
-.top-header-image{
+body > div {
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+.header {
     background-color: #1F2937;
-    font: roboto, sans-serif;
+    display: flex;
     color: #F9FAF8;
+    padding-top: 16px;
+    padding-bottom: 8px;
+    align-items: center;
 }
 
-.top-header-list{
-
-}
-
-.midle-header-box{
-
-}
-
-.midle-header-text{
-  
-
-}
-
-.midle-header-text-h1{
-    font-size: 48px;
-    font-weight: bolder;
+.header-logo {
+    margin-right: auto;
+    font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 
-.midle-header-text-p{
+.header-link {
     font-size: 18px;
     color: #E5E7EB;
+    margin-left: 16px;
 }
 
-.midle-header-button{
-    background-color: #3882f6;
+.section-one {
+    background-color: #1F2937;
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px;
     color: #F9FAF8;
-    font: roboto, sans-serif;
-    border:#3882f6;
+    align-items: center;
+    gap: 24px;
 }
 
-.midle-header-image{
-
+.section-one-texts {
+    flex: 1;
 }
 
-.top-main{
-
+.section-one-image {
+    display: flex;
+    background-color: grey;
+    align-self: stretch;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
 
-
-.midle-main{
-    background-color: #e5e7eb;
+.section-one-details-header {
+    font-size: 48px;
+    font-weight: 900;
+}
+.section-one-details-details {
+    font-size: 18px;
+    padding-bottom: 16px;
 }
 
-.bottom-main{
-
-
+.section-one-texts-btn {
+    background-color: #3882F6;
+    padding: 8px;
+    width: 100px;
+    justify-self: flex-start;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 8px;
 }
 
-.unique-footer{
+.section-two {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+
+.section-two-header {
+    display: flex;
+    padding: 42px;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.boxes-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-bottom: 42px;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    width: 170px;
+    gap: 8px;
+    color: #434f5e;
+    font-size: 18px;
+}
+
+.format-box {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 12px;
+}
+
+.section-three {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: #E5E7EB;
+    align-content: center;
+}
+
+.section-three-quote {
+    color: #434f5e;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.quote-name {
+    text-align: right;
+    font-weight: 600;
+    font-size: 24px;
+    color: #303a46;
+}
+
+.section-four {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-four-sign-up-container {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15% 40px 15%;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.section-four-sign-up-container-texts{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.section-four-button {
+    display: flex;
+    border: 4px solid #E5E7EB;
+    min-width: 80px;
+    text-align: center;
+    justify-content: center;
+    padding: 8px 16px 8px 16px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.section-four-header {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.section-four-text {
+    font-size: 18px;
+    color: #e5e7ebe0;
+}
+
+.footer {
     background-color: #1F2937;
     color: #F9FAF8;
-    font: roboto, sans-serif;
+    justify-items: center;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
