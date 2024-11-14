@@ -72,6 +72,7 @@ body > div {
 
 .section-one-texts-btn {
     background-color: #3882F6;
+    
     padding: 8px;
     width: 100px;
     justify-self: flex-start;
@@ -79,6 +80,11 @@ body > div {
     font-weight: 600;
     border-radius: 8px;
 }
+
+
+
+
+
 
 .section-two {
     display: flex;
@@ -131,6 +137,7 @@ body > div {
 }
 
 .section-three-quote {
+    
     color: #434f5e;
     font-size: 36px;
     font-style: italic;
@@ -158,8 +165,9 @@ body > div {
     justify-content: space-between;
     align-items: center;
     padding: 40px 15% 40px 15%;
-    background-color: #3882F6;
-    color: #F9FAF8;
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+    /*background-color: #3882F6;*/
+    color: white;
     border-radius: 8px;
 }
 
@@ -171,7 +179,7 @@ body > div {
 
 .section-four-button {
     display: flex;
-    border: 4px solid #E5E7EB;
+    border: 4px solid white;
     min-width: 80px;
     text-align: center;
     justify-content: center;
@@ -179,6 +187,7 @@ body > div {
     font-size: 18px;
     font-weight: bold;
     border-radius: 10px;
+    color: white;
 }
 
 .section-four-header {
@@ -188,7 +197,7 @@ body > div {
 
 .section-four-text {
     font-size: 18px;
-    color: #e5e7ebe0;
+    color: white;
 }
 
 .footer {
@@ -198,3 +207,4 @@ body > div {
     padding-bottom: 25px;
     padding-top: 25px;
 }
+
